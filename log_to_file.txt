@@ -1,0 +1,6 @@
+# helps you to keep changes
+#
+# it's nice to have log from original source and log of current status
+# and to compare them in `meld` or something. It makes life easier!
+
+git log --oneline --decorate > log.txt

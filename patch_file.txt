@@ -1,0 +1,1 @@
+git format-patch --stdout $(git log --pretty=format:%H|tail -1) > tutorial.multi.patch
