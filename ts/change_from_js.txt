@@ -1,0 +1,3 @@
+find client -depth -name "*.js" -exec sh -c 'mv "$1" "${1%.js}.ts"' _ {} \;
+find imports -depth -name "*.js" -exec sh -c 'mv "$1" "${1%.js}.ts"' _ {} \;
+find server -depth -name "*.js" -exec sh -c 'mv "$1" "${1%.js}.ts"' _ {} \;
