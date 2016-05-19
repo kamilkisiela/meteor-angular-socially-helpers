@@ -1,2 +1,0 @@
-git push origin --tags
-git push upstream --tags

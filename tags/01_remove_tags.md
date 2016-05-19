@@ -1,3 +1,14 @@
+# Removing tags
+
+```bash
+git tag -d step_XX
+```
+
+
+### Remove tags from all steps
+
+```bash
+git tag -d step_23
 git tag -d step_22
 git tag -d step_21
 git tag -d step_20
@@ -21,3 +32,4 @@ git tag -d step_03
 git tag -d step_02
 git tag -d step_01
 git tag -d step_00
+```

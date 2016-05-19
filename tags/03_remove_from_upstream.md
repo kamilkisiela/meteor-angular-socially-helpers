@@ -1,3 +1,14 @@
+# Removing tags from origin
+
+
+```bash
+git push upstream :refs/tags/step_XX
+```
+
+### Remove tags from all steps
+
+```bash
+git push upstream :refs/tags/step_23
 git push upstream :refs/tags/step_22
 git push upstream :refs/tags/step_21
 git push upstream :refs/tags/step_20
@@ -21,3 +32,4 @@ git push upstream :refs/tags/step_03
 git push upstream :refs/tags/step_02
 git push upstream :refs/tags/step_01
 git push upstream :refs/tags/step_00
+```
